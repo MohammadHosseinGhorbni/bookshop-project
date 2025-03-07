@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Tanha;
+  src: url("./assets/font/Tanha.eot");
+  src: url("./assets/font/Tanha.eot?#iefix") format("embedded-opentype"),
+    url("./assets/font/Tanha.woff") format("woff"),
+    url("./assets/font/Tanha.ttf") format("truetype");
+  font-weight: normal;
+}
+
+body {
+  direction: rtl;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tanha;
+  width: 100%;
+}
+
+.books-container {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.info-book img {
+  width: 200px;
+}
+
+.basket-buy {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  gap: 30px;
+}
+
+.pric-book {
+  display: flex;
+  gap: 25px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  font-size: 25px;
+  font-weight: bold;
+  color: #7f7f7f;
+}
+
+.now-price {
+  font-weight: bold;
+  font-size: 25px;
+  color: red;
+}
