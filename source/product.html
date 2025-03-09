@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./product.css" />
+    <link rel="stylesheet" href="./css/product.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -15,7 +15,11 @@
       <div class="container">
         <div class="basket-buy">
           <div class="img-book">
-            <img width="300px" src="./assets/images/book-be-tokh.jpg" alt="" />
+            <img
+              width="300px"
+              src="./css/assets/images/book-be-tokh.jpg"
+              alt=""
+            />
           </div>
           <div class="basket-info">
             <h2 class="basket-subtitle">
@@ -34,39 +38,47 @@
               <h3 class="old-price">265,000 تومان</h3>
               <h3 class="now-price">170,000 تومان</h3>
             </div>
-            <p>
+            <p class="book-info-text">
               ممکن است از عنوان عجیب این کتاب تعجب کرده باشید ! این کتاب یکی از
               پرفروش ترین کتاب های نیویورک تایمز است که در سال 2016 منتشر شد !
+              <br /><br />
               نویسنده این کتاب آقای مارک منسون معتقد است که ما در زندگی اکثر
               انرژي مان را صرف اهمیت دادن به مسائل بی ارزش میکنیم و زمانی که
               باید به مسائل مهم اهمیت بدهیم انرژی مان تمام می شود و در زندگی
-              شکست میخوریم ! دیدگاه های مارک منسون در این کتاب شمارا به وجد
-              خواهد آورد و در هنگام مطالعه این کتاب به خودتان میگویید چرا تا به
-              حال خودم به این نتیجه نرسیده بودم ؟! برای توضیحات بیشتر در مورد
-              کتاب هنر رندانه به تخم گرفتن به پایین صفحه بروید . کتاب هنر رندانه
-              به تخم گرفتن اثر مارک منسون و ترجمه ارشاد نیک خواه (بدون سانسور)
-              را از هشتگ کتاب میتوانید تهیه کنید اگر اولین بار باشد که کتاب
-              سفارش میدهید هزینه ارسال تان را مهمان ما هستید و ارسال رایگان می
-              باشد !
+              شکست میخوریم ! <br /><br />
+              دیدگاه های مارک منسون در این کتاب شمارا به وجد خواهد آورد و در
+              هنگام مطالعه این کتاب به خودتان میگویید چرا تا به حال خودم به این
+              نتیجه نرسیده بودم ؟! <br /><br />برای توضیحات بیشتر در مورد کتاب
+              <span style="font-weight: bold">هنر رندانه به تخم گرفتن</span> به
+              پایین صفحه بروید . <br /><br />
+              کتاب هنر رندانه به تخم گرفتن اثر مارک منسون و ترجمه ارشاد نیک خواه
+              (بدون سانسور) را از هشتگ کتاب میتوانید تهیه کنید اگر اولین بار
+              باشد که کتاب سفارش میدهید هزینه ارسال تان را مهمان ما هستید و
+              <span style="font-weight: bold">ارسال رایگان</span> می باشد !
             </p>
             <div class="basket-counter">
               <div class="coun-book">
-                <input type="button" value="-" />
-                <input type="number" value="1" />
-                <input type="button" value="+" />
+                <input type="button" class="minus-btn" value="-" />
+                <input
+                  type="number"
+                  class="no-spiner"
+                  id="input-number"
+                  value="1"
+                />
+                <input type="button" class="plus-btn" value="+" />
               </div>
               <button>افزودن به سبد خرید</button>
             </div>
             <div class="basket-send">
               <div class="first-box">
-                <img src="./assets/images/send-150x150.png" alt="" />
+                <img src="./css/assets/images/send-150x150.png" alt="" />
                 <h3>ارسال رایگان برای خرید اول شما</h3>
                 <p>
                   با افتخار هزینه ارسال اولین سفارش کتاب تان را مهمان ما هستید !
                 </p>
               </div>
               <div class="second-box">
-                <img width="50px" src="./assets/images/like.svg" alt="" />
+                <img width="50px" src="./css/assets/images/like.svg" alt="" />
                 <h3>خرید کتاب با ترجمه روان از بهترین ناشران</h3>
                 <p>
                   لذت خرید کتاب با ترجمه ای روان از بهترین ناشران را با ما تجربه
@@ -143,7 +155,7 @@
           </div>
           <div class="info-book">
             <h3>هنر رندانه به تخم گرفتن</h3>
-            <img src="./assets/images/هنر به هیچ گرفتن.jpg" alt="" />
+            <img src="./css/assets/images/هنر به هیچ گرفتن.jpg" alt="" />
             <p>نویسنده: <span>مارک منسون</span></p>
             <p>
               عنوان اصلی:
