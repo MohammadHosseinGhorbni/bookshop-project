@@ -13,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Tanha;
+  font-family: Tanha, sans-serif;
   width: 100%;
 }
 
@@ -78,21 +78,38 @@ body {
   background-color: #fff;
   padding: 9px;
   border-radius: 5px;
+  color: #5a5959;
+  border: 1.5px solid #5a5959;
 }
 
 .plus-btn {
   background-color: #fff;
   padding: 8px;
+  color: #5a5959;
   border-radius: 5px;
+  border: 1.5px solid #5a5959;
+}
+
+.minus-btn:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: rgb(0, 106, 255);
+}
+
+.plus-btn:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: rgb(0, 106, 255);
 }
 
 #input-number {
-  margin: 0 10px;
-  padding: 5px;
   width: 25px;
   text-align: center;
-  border: 1.5px solid black;
   border-radius: 5px;
+  font-size: 15px;
+  border: 1.5px solid #5a5959;
+  color: #5a5959;
+  outline: none;
 }
 
 .no-spiner::-webkit-inner-spin-button,
@@ -101,6 +118,75 @@ body {
   margin: 0;
 }
 
-/* .basket-counter {
+.basket-btn {
+  font-size: 17px;
+  color: #fff;
+  background-color: rgb(0, 106, 255);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+.basket-counter {
+  display: flex;
+  gap: 12px;
+}
+
+.basket-send {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.first-box {
+  display: flex;
   border: 2px solid black;
-} */
+  width: 350px;
+  border-radius: 15px;
+  border: none;
+  padding: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-img {
+  width: 80px;
+  height: 50px;
+  margin: auto 10px;
+}
+.second-box {
+  display: flex;
+  border: 2px solid black;
+  width: 350px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.sub-title {
+  color: blue;
+  font-size: 16px;
+}
+
+.text-info {
+  color: #7f7f7f;
+  font-size: 12px;
+}
+
+.basket-desc {
+  color: #5a5959;
+  font-size: 14px;
+}
+
+.basket-footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.img-book img {
+  border-radius: 14px;
+}
